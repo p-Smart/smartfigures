@@ -1,0 +1,15 @@
+@media (max-width: 500px) {
+    .transaction-history th{position: sticky; left: 0;}
+    .transaction-history td,.transaction-history th{ font-size: .650rem !important; padding: 8px; }
+    .transaction-history td span{ font-size: .550rem !important; }
+    
+
+    /* .date-picker-wrapper{width: 70%;} */
+    .transaction-history label{ font-size: .650rem; }
+    .transaction-history .MuiInputBase-input{ font-size: .650rem; }
+    .transaction-history .MuiButtonBase-root{ font-size: .650rem; align-self: center; }
+
+    .MuiOtpInput-Box input{ padding: 0; width: 50px; height: 50px; }
+
+    ::-webkit-scrollbar{ width: 0.2rem !important; height: 0.2rem !important;}
+}
