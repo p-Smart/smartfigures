@@ -105,7 +105,10 @@ app.get('/update-transactions', CheckTransactionStatus)
 
 app.get('/delete-expired-otps', DeleteExpiredOTPs)
 
-app.get('/test', (_, res) => res.send('Working...'))
+
+
+
+app.get('/keep-active', (_, res) => res.send('Active...'))
 
 
 // const cloudinary = require('cloudinary').v2
